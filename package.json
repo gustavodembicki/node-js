@@ -1,0 +1,15 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch src/server.js",
+    "streams": "node --watch streams/fundamentals.js",
+    "streams-server": "node --watch streams/stream-http-server.js && node streams/file/fake-upload-to-http-stream.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
